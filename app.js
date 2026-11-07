@@ -7,6 +7,14 @@ const translations = {
     "nav.home": "Accueil", "nav.services": "Services", "nav.pricing": "Prix",
     "nav.about": "À propos", "nav.corporate": "Corporate", "nav.donations": "Dons",
     "nav.order": "Passer la commande",
+    
+"how.title": "Comment ça marche ?",
+"how.step1": "1. Commandez : prenez une photo de vos chaussures.",
+"how.step2": "2. Dépôt ou ramassage : Montréal 10 $ · Laval et Longueuil 15 $.",
+"how.step3": "3. Livraison organisée après environ 5 jours ouvrables.",
+"how.payment": "Paiement : espèces, carte ou Interac.",
+"how.free": "Livraison gratuite dès 120 $ de services.",
+
 
     "hero.eyebrow": "La maison de soin des souliers",
     "hero.title.1": "Vos chaussures méritent",
@@ -127,6 +135,14 @@ const translations = {
     "nav.home": "Home", "nav.services": "Services", "nav.pricing": "Pricing",
     "nav.about": "About", "nav.corporate": "Corporate", "nav.donations": "Donations",
     "nav.order": "Place your order",
+    
+"how.title": "How does it work?",
+"how.step1": "1. Order: take a photo of your shoes.",
+"how.step2": "2. Drop-off or pickup: Montréal $10 · Laval and Longueuil $15.",
+"how.step3": "3. Delivery arranged after approximately 5 business days.",
+"how.payment": "Payment: cash, card or Interac e-Transfer.",
+"how.free": "Free delivery on service orders of $120 or more.",
+
 
     "hero.eyebrow": "The house of shoe care",
     "hero.title.1": "Your shoes deserve",
@@ -247,6 +263,14 @@ const translations = {
     "nav.home": "Acasă", "nav.services": "Servicii", "nav.pricing": "Prețuri",
     "nav.about": "Despre noi", "nav.corporate": "Corporate", "nav.donations": "Donații",
     "nav.order": "Plasează comanda",
+    
+"how.title": "Cum funcționează?",
+"how.step1": "1. Comandă: fotografiază încălțămintea și plasează comanda.",
+"how.step2": "2. Predare sau ridicare: Montréal 10 $ · Laval și Longueuil 15 $.",
+"how.step3": "3. Organizăm livrarea după aproximativ 5 zile lucrătoare.",
+"how.payment": "Plată: numerar, card sau transfer Interac.",
+"how.free": "Livrare gratuită pentru servicii de minimum 120 $.",
+
 
     "hero.eyebrow": "Casa de îngrijire a pantofilor",
     "hero.title.1": "Pantofii tăi merită",
@@ -367,6 +391,14 @@ const translations = {
     "nav.home": "Home", "nav.services": "Servizi", "nav.pricing": "Prezzi",
     "nav.about": "Chi siamo", "nav.corporate": "Corporate", "nav.donations": "Donazioni",
     "nav.order": "Effettua l'ordine",
+    
+"how.title": "Come funziona?",
+"how.step1": "1. Ordina: scatta una foto delle tue scarpe.",
+"how.step2": "2. Deposito o ritiro: Montréal 10 $ · Laval e Longueuil 15 $.",
+"how.step3": "3. Consegna organizzata dopo circa 5 giorni lavorativi.",
+"how.payment": "Pagamento: contanti, carta o bonifico Interac.",
+"how.free": "Consegna gratuita per servizi di almeno 120 $.",
+
 
     "hero.eyebrow": "La casa della cura delle scarpe",
     "hero.title.1": "Le tue scarpe meritano",
