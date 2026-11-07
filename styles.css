@@ -1395,3 +1395,12 @@ html.js .corp-shot:not(.is-in) img { transform: scale(1.12); }
   color: var(--text); background: rgba(7,21,37,.62); border: 1px solid var(--line-2); padding: 4px 9px; border-radius: 999px; backdrop-filter: blur(4px); }
 .sc-grid .sc-ico { position: absolute; top: 16px; left: 16px; z-index: 4; }
 .sc-grid .sc-num { position: absolute; top: 16px; right: 20px; z-index: 4; }
+
+/* Dezactiveaza efectele de miscare pe telefoane */
+@media (hover: none), (pointer: coarse) {
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
