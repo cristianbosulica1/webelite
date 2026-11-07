@@ -1308,7 +1308,7 @@ function initBA(){
   window.addEventListener('pointerup',()=>drag=false);
   handle.addEventListener('keydown',e=>{const c=parseFloat(handle.getAttribute('aria-valuenow'))||50; if(e.key==='ArrowLeft'){set(c-4);e.preventDefault();} if(e.key==='ArrowRight'){set(c+4);e.preventDefault();}});
 }
-function initTilt(){
+function initTilt(){ return;
   const tl=document.getElementById('hero-tilt'); if(!tl) return;
   if(!window.matchMedia('(hover: hover) and (pointer: fine)').matches || reduceMotion) return;
   const w=tl.parentElement; let raf=null,tx=0,ty=0;
