@@ -1226,7 +1226,7 @@ document.addEventListener('DOMContentLoaded', () => {
                1) souliers TERNES → 2) ils deviennent BRILLANTS & parfaits →
                3) le soleil s'approche, ils se SUBLIMENT dans la lumière pendant que
                   la mer descend et que le soleil se couche (arrivée aux Services sous l'eau). */
-            ScrollTrigger.create({ trigger:_hero, start:'top top', end:'+=150%', pin:true, scrub:0.9, anticipatePin:1,
+        if (false) {    ScrollTrigger.create({ trigger:_hero, start:'top top', end:'+=150%', pin:true, scrub:0.9, anticipatePin:1,
               onUpdate:self=>{ const p=self.progress;
                 const T=seg(p,0.05,0.40);    /* transformation terne → brillant, dès le début du défilement */
                 const E=seg(p,0.52,0.84);    /* sublimation / évaporation dans la lumière */
@@ -1267,7 +1267,7 @@ document.addEventListener('DOMContentLoaded', () => {
           }
           ScrollTrigger.refresh();
         }
-      } catch(e){}
+      } catch(e){}}
 
       /* Bande signature : tracé du croquis + lueur des filets */
       try {
