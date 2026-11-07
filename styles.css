@@ -1404,3 +1404,14 @@ html.js .corp-shot:not(.is-in) img { transform: scale(1.12); }
   }
 }
 
+
+/* Stabilizare afisare pe telefoane Samsung */
+@media (max-width: 768px) {
+  .reveal, .reveal-card {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: none !important;
+    animation: none !important;
+    transition: none !important;
+  }
+}
