@@ -1221,7 +1221,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const _bloom=document.querySelector('.hero-shoes-bloom');
         const seg=(p,a,b)=>Math.max(0,Math.min(1,(p-a)/(b-a)));
         if(_hero && _bg){
-          if(window.matchMedia('(min-width:900px)').matches){
+          if(false){
             /* Cinématique 3 actes (épinglée, longue → l'attente devient mémorable) :
                1) souliers TERNES → 2) ils deviennent BRILLANTS & parfaits →
                3) le soleil s'approche, ils se SUBLIMENT dans la lumière pendant que
