@@ -1396,11 +1396,11 @@ html.js .corp-shot:not(.is-in) img { transform: scale(1.12); }
 .sc-grid .sc-ico { position: absolute; top: 16px; left: 16px; z-index: 4; }
 .sc-grid .sc-num { position: absolute; top: 16px; right: 20px; z-index: 4; }
 
-/* Dezactiveaza efectele de miscare pe telefoane */
 @media (hover: none), (pointer: coarse) {
-  *, *::before, *::after {
-    animation: none !important;
-    transition: none !important;
+  .reveal, .reveal-card {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: none !important;
   }
 }
 
